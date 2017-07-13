@@ -14,3 +14,6 @@ elif my_number >= 5:
     print 'My number is larger OR equal to 5.'
 else:
     print 'My number is between 1 and 4.'
+    print 'More lines than 1 is okay.'
+
+print 'Out of the loop.'
