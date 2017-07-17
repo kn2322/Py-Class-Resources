@@ -52,3 +52,10 @@ else:
 
 print 'the value of bread is: ' + bread
 print "bread != 'okay' evaluates to " + str(bread == 'okay')
+
+raw_input('Part 5')
+
+letter = 'a'
+print "letter in 'aeiou' evaluates to: " + str(letter in 'aeiou')
+print "letter in 'xyz' evaluates to: " + str(letter in 'xyz')
+print "letter in 'pancake' evaluates to: " + str(letter in 'pancake')

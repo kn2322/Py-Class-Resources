@@ -28,3 +28,25 @@ my_list.append(10)
 for item in my_list:
     processed = item ** 2
     print processed
+
+
+x = 'hello world'.split(' ')
+# x is ['hello', 'world']
+x = 'hello world'.split('w')
+# x is ['hello ', 'orld']
+
+
+x = 'hello world'.replace('l', 'm')
+# x is 'hemmo wormd'
+
+x = 'hello'
+x.upper()
+# x is 'HELLO'
+x.lower()
+# x is 'hello'
+
+x = ['good', 'morning']
+y = ' '.join(x)
+# y is 'good morning'
+z = '#'.join(x)
+# z is 'good#morning'
